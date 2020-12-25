@@ -1,0 +1,71 @@
+html {
+    background: cadetblue;
+}
+input {
+    margin-top: 25px;
+    display: inline;
+    width: 90%;
+    height: 30px;
+}
+.btn{
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    padding: 5px;
+}
+.chat {
+    background: darkslategray;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.chatHeader {
+    margin-bottom: 20px;
+    background: skyblue;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 50px;
+}
+img {
+    border-radius: 50%;
+    border: solid 4px rgba(0,0,0,0);
+}
+img:hover {
+    border-color: lightcyan;
+    cursor: pointer;
+}
+.user {
+    color: darkblue;
+}
+.context {
+    display: inline-block;
+    max-width: 70%;
+    word-wrap: break-word;
+    height: 30px;
+    font-size: 25px;
+}
+.messageAvatar {
+    margin-top: -10px;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    float: left;
+}
+.sendTime {
+    margin-top: -5px;
+    float: right;
+    text-align: right;
+}
+.userMessage {
+    background: lightblue;
+    padding: 10px;
+    margin: 0 0 10px 10px;
+    border-radius: 30px;
+    width: 70%;
+}
+.removeButton {
+    color: ghostwhite;
+    margin-top: -5px;
+    float: right;
+    margin-right: 7px;
+}
